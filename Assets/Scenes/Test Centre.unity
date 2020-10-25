@@ -3411,6 +3411,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4580766925885248, guid: 2f3e27eecb190e44a9af50723c394274, type: 3}
   m_PrefabInstance: {fileID: 338219832}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &354470945 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 572156269088631837, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+  m_PrefabInstance: {fileID: 7894871633285170218}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &365026281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12489,6 +12494,8 @@ GameObject:
   - component: {fileID: 1097722531}
   - component: {fileID: 1097722535}
   - component: {fileID: 1097722536}
+  - component: {fileID: 1097722538}
+  - component: {fileID: 1097722537}
   m_Layer: 8
   m_Name: Ball
   m_TagString: Untagged
@@ -12662,6 +12669,45 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 0.25
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
+--- !u!114 &1097722537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097722530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64179f3720bbfe947b7724caa67b7c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeVelocity: 1
+  m_SynchronizeAngularVelocity: 1
+  m_TeleportEnabled: 1
+  m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &1097722538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097722530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 1097722537}
+  viewIdField: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1001 &1102582093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16277,7 +16323,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh95268
+  m_Name: pb_Mesh46902
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18004,7 +18050,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh94992
+  m_Name: pb_Mesh46212
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21585,16 +21631,60 @@ PrefabInstance:
       value: VR Rig
       objectReference: {fileID: 0}
     - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectExit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 59652020}
     - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
       propertyPath: m_OnSelectEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 354470945}
     - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
       propertyPath: m_OnSelectExit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 354470945}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectEnter.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectExit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectExit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectExit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894871632075694398, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
+      propertyPath: m_OnSelectExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7894871632744765107, guid: ba7d484bb34a21945b830b87ec021157, type: 3}
       propertyPath: m_InteractionManager
