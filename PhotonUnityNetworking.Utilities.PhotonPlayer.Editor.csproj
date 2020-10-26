@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{08EA33C8-3C3B-03E1-F07C-569D2045B190}</ProjectGuid>
+    <ProjectGuid>{183B297D-CC20-431C-9F2E-98E5143C66AF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</AssemblyName>
@@ -60,16 +60,16 @@
      <Compile Include="Assets\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PlayerNumberingInspector.cs" />
      <None Include="Assets\Photon\PhotonUnityNetworking\UtilityScripts\PhotonPlayer\Editor\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/Projects/Personal/Among Us VR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/GitHub Commits/Among-Us-VR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/Projects/Personal/Among Us VR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/GitHub Commits/Among-Us-VR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>E:/Projects/Personal/Among Us VR/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>E:/GitHub Commits/Among-Us-VR/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>E:/Projects/Personal/Among Us VR/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>E:/GitHub Commits/Among-Us-VR/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -266,20 +266,17 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>E:/Projects/Personal/Among Us VR/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>E:/GitHub Commits/Among-Us-VR/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>E:/Projects/Personal/Among Us VR/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>E:/GitHub Commits/Among-Us-VR/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.NRefactory">
- <HintPath>E:/Projects/Personal/Among Us VR/Library/PackageCache/com.unity.render-pipelines.core@8.2.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ <HintPath>E:/GitHub Commits/Among-Us-VR/Library/PackageCache/com.unity.render-pipelines.core@8.2.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>E:/Projects/Personal/Among Us VR/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>E:/GitHub Commits/Among-Us-VR/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -635,19 +632,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{D02EF147-14F1-EB1A-7972-FF8FBEA86967}</Project>
+      <Project>{FE54417E-801C-9B05-9243-84E52F33EDEA}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{72B5E0F6-F810-89D1-9C2A-6866503FE87B}</Project>
+      <Project>{DF368336-9FAE-2612-BB68-67C4043148C3}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{0D447CDC-2FF0-C03F-B202-70BB93CF80D9}</Project>
+      <Project>{07C1356D-AA6B-F1BC-B72A-9B9AFDC475BB}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{BCA3FAE2-532E-D600-EBAF-2851EB61288A}</Project>
+      <Project>{AFA93EFE-6D36-DA90-6F7F-75907B5AC040}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
   </ItemGroup>

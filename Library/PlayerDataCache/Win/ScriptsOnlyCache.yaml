@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - NetworkPlayerSpawner
     - Target
     - TwoHandGrabInteractable
+    - XRGrabNetworkInteractable
     - XROffsetGrabInteractable
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
@@ -108,11 +109,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationBlendTree.Node
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -300,65 +298,67 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15600}
     - Class: 114
-      Script: {instanceID: 15728}
+      Script: {instanceID: 15628}
     - Class: 114
-      Script: {instanceID: 15768}
+      Script: {instanceID: 15730}
     - Class: 114
-      Script: {instanceID: 15820}
+      Script: {instanceID: 15770}
     - Class: 114
-      Script: {instanceID: 15832}
+      Script: {instanceID: 15822}
     - Class: 114
-      Script: {instanceID: 15934}
+      Script: {instanceID: 15834}
     - Class: 114
-      Script: {instanceID: 15938}
+      Script: {instanceID: 15936}
     - Class: 114
-      Script: {instanceID: 15984}
+      Script: {instanceID: 15940}
     - Class: 114
-      Script: {instanceID: 16014}
+      Script: {instanceID: 15986}
     - Class: 114
-      Script: {instanceID: 16068}
+      Script: {instanceID: 16016}
     - Class: 114
-      Script: {instanceID: 16262}
+      Script: {instanceID: 16070}
     - Class: 114
-      Script: {instanceID: 16356}
+      Script: {instanceID: 16264}
     - Class: 114
-      Script: {instanceID: 16432}
+      Script: {instanceID: 16358}
     - Class: 114
-      Script: {instanceID: 16576}
+      Script: {instanceID: 16434}
     - Class: 114
-      Script: {instanceID: 16698}
+      Script: {instanceID: 16578}
     - Class: 114
       Script: {instanceID: 16700}
     - Class: 114
-      Script: {instanceID: 16822}
+      Script: {instanceID: 16702}
     - Class: 114
-      Script: {instanceID: 16954}
+      Script: {instanceID: 16824}
     - Class: 114
-      Script: {instanceID: 16982}
+      Script: {instanceID: 16956}
     - Class: 114
-      Script: {instanceID: 17026}
+      Script: {instanceID: 16984}
     - Class: 114
-      Script: {instanceID: 17170}
+      Script: {instanceID: 17028}
     - Class: 114
-      Script: {instanceID: 17182}
+      Script: {instanceID: 17172}
     - Class: 114
-      Script: {instanceID: 17196}
+      Script: {instanceID: 17184}
     - Class: 114
-      Script: {instanceID: 17332}
+      Script: {instanceID: 17198}
     - Class: 114
-      Script: {instanceID: 17338}
+      Script: {instanceID: 17334}
     - Class: 114
-      Script: {instanceID: 17350}
+      Script: {instanceID: 17340}
     - Class: 114
-      Script: {instanceID: 17416}
+      Script: {instanceID: 17352}
     - Class: 114
-      Script: {instanceID: 17448}
+      Script: {instanceID: 17418}
     - Class: 114
-      Script: {instanceID: 17528}
+      Script: {instanceID: 17450}
     - Class: 114
-      Script: {instanceID: 17588}
+      Script: {instanceID: 17530}
     - Class: 114
-      Script: {instanceID: 17596}
+      Script: {instanceID: 17590}
+    - Class: 114
+      Script: {instanceID: 17598}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1686,6 +1686,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: acb0b9b370b066f62ddf17b10217c99d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: XRGrabNetworkInteractable
   - hash:
       serializedVersion: 2
       Hash: 11bdd61587db747672b66c52442395d8

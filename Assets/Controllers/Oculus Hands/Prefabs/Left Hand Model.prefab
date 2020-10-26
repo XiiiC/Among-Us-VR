@@ -317,7 +317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 109434732395451517}
-  - component: {fileID: 109434732388006827}
+  - component: {fileID: 5088308441938649460}
   m_Layer: 0
   m_Name: Left Hand Model
   m_TagString: Untagged
@@ -341,7 +341,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!95 &109434732388006827
+--- !u!95 &5088308441938649460
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -352,7 +352,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: ca20b3907ff1c794cb89c1ad2cce8282, type: 3}
   m_Controller: {fileID: 9100000, guid: 8768bc361afb9a141943fb0c1b3dff04, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -410,7 +410,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3637b758ff163493f8bb8b6d7e96d7ae, type: 2}
+  - {fileID: 2100000, guid: 2c5ed43daa4eed64ba5e40a7b905e521, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

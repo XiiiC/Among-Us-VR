@@ -57,8 +57,8 @@ MonoBehaviour:
   - {fileID: 8042922618248554409}
   - {fileID: 5660457249069185383}
   - {fileID: 3679877847898628355}
-  - {fileID: 6490860095509368504}
-  - {fileID: 5579519330281003937}
+  - {fileID: 4440648600642368094}
+  - {fileID: 7955032709407537854}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -77,7 +77,7 @@ MonoBehaviour:
   head: {fileID: 4582986889476916680}
   leftHand: {fileID: 3979439456342692745}
   rightHand: {fileID: 7525536248685015782}
-  leftHandAnimator: {fileID: 5469308676008591620}
+  leftHandAnimator: {fileID: 936577876935318491}
   rightHandAnimator: {fileID: 8186829677819844638}
 --- !u!1 &551002356500452313
 GameObject:
@@ -268,7 +268,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6490860095509368504
+--- !u!114 &4440648600642368094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &5579519330281003937
+--- !u!114 &7955032709407537854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -418,10 +418,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right Hand Model
       objectReference: {fileID: 0}
-    - target: {fileID: 5686134208196863108, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2c5ed43daa4eed64ba5e40a7b905e521, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
 --- !u!1 &8186829677827107752 stripped
@@ -446,10 +442,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3979439456342692745}
     m_Modifications:
-    - target: {fileID: 109434732392105323, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2c5ed43daa4eed64ba5e40a7b905e521, type: 2}
     - target: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
       propertyPath: m_Name
       value: Left Hand Model
@@ -510,8 +502,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
   m_PrefabInstance: {fileID: 5359891639356095151}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &5469308676008591620 stripped
+--- !u!95 &936577876935318491 stripped
 Animator:
-  m_CorrespondingSourceObject: {fileID: 109434732388006827, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5088308441938649460, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
   m_PrefabInstance: {fileID: 5359891639356095151}
   m_PrefabAsset: {fileID: 0}
