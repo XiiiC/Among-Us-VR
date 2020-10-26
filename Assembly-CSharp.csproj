@@ -84,6 +84,7 @@
      <Compile Include="Assets\Scripts\HandButton.cs" />
      <Compile Include="Assets\Scripts\FollowToTheSide.cs" />
      <Compile Include="Assets\Scripts\NetworkPlayerSpawner.cs" />
+     <Compile Include="Assets\Scripts\XRGrabNetworkInteractable.cs" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\Downloaded Assets\PolygonPrototype\Shaders\Prototype_Glass_Global.shader" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
